@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Formula</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px 20px; /* Adiciona padding lateral */
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 500px; /* Define uma largura máxima */
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Espaçamento entre os botões */
+        }
+        .button {
+            display: block;
+            width: calc(100% - 40px); /* Subtrai o padding lateral */
+            padding: 20px;
+            font-size: 20px;
+            color: #fff;
+            background-color: #1162db; /* Azul */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s ease, box-shadow 0.1s ease;
+            margin: 0 auto; /* Centraliza os botões */
+        }
+        .button:hover {
+            background-color: #ff8c00; /* Laranja */
+        }
+        .button:active {
+            background-color: #e07b00; /* Laranja mais escuro */
+            box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Selecione a Formula</h1>
+        <div class="button-container">
+            <a href="/calculadora/.html" class="button">X3 - 20%</a>
+            <a href="/container2.html" class="button">x2.5 - 38%</a>
+        </div>
+    </div>
+</body>
+</html>
